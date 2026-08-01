@@ -192,6 +192,20 @@ root@cap:~# cat /root/root.txt
 
 ---
 
+## 💥 Impact
+
+Achieving root access means **full compromise** of the host. With this level of control, an attacker could:
+
+- **Access all data** — read every file on the system, including sensitive configs, credentials, and other users' data.
+- **Establish persistence** — plant backdoors, SSH keys, or cron jobs to keep access even after a reboot or password change.
+- **Move laterally** — use the compromised host as a pivot to attack other machines on the internal network.
+- **Cover tracks** — modify or delete logs to hide the intrusion.
+- **Abuse the capture feature** — since the dashboard captures live traffic, an attacker could sniff credentials of other users in real time.
+
+The chained vulnerabilities (IDOR → plaintext credentials → capability abuse) turn a simple information disclosure into a **complete system takeover** — a strong example of how low-severity issues combine into a critical one.
+
+
+
 ## 🎓 Key Takeaways
 
 | # | Lesson |
