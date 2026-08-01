@@ -60,8 +60,7 @@ A full port scan (`-p-`) confirmed no additional ports were hidden.
 nmap -p- --min-rate=1000 -oN cap_allports.txt <TARGET_IP>
 ```
 
-> 📸 *Screenshot: nmap scan results*
-> `![nmap scan](screenshots/01-nmap.png)`
+![nmap scan](screenshots/01-nmap.png)
 
 The HTTP server on port 80 stood out as the most promising entry point.
 
@@ -76,8 +75,7 @@ The left sidebar exposed administrative functions:
 - **IP Config** — runs `ifconfig`
 - **Network Status** — runs `netstat`
 
-> 📸 *Screenshot: Security Dashboard*
-> `![dashboard](screenshots/02-dashboard.png)`
+![dashboard](screenshots/02-dashboard.png)
 
 ---
 
@@ -124,8 +122,7 @@ Response: 230 Login successful.
 
 > 💡 **Why this works:** FTP has no encryption. Any captured traffic exposes credentials in cleartext — a strong argument for using SFTP/FTPS instead.
 
-> 📸 *Screenshot: Wireshark FTP credentials*
-> `![wireshark](screenshots/04-wireshark-ftp.png)`
+![wireshark](screenshots/04-wireshark-ftp.png)
 
 **Credentials found:**
 
@@ -152,8 +149,7 @@ nathan@cap:~$ cat user.txt
 5968573x xxxxxxxxxxxxxxxxxxxxxxx88   # (redacted)
 ```
 
-> 📸 *Screenshot: SSH login + user flag*
-> `![foothold](screenshots/05-ssh-userflag.png)`
+![foothold](screenshots/05-ssh-userflag.png)
 
 ---
 
@@ -195,8 +191,7 @@ Root achieved. Retrieved the root flag:
 root@cap:~# cat /root/root.txt
 ```
 
-> 📸 *Screenshot: root shell + root flag*
-> `![root](screenshots/06-root.png)`
+![root](screenshots/06-root.png)
 
 ---
 
