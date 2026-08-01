@@ -31,7 +31,7 @@ Cap is an easy Linux machine running a web-based **Security Dashboard** (Gunicor
 - [Packet Analysis](#-packet-analysis)
 - [Foothold — SSH Access](#-foothold--ssh-access)
 - [Privilege Escalation — Linux Capabilities](#-privilege-escalation--linux-capabilities)
-- [Impact](#-impacts)
+- [Impact](#-impact)
 - [Key Takeaways](#-key-takeaways)
 
 ---
