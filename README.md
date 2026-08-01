@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-HackTheBox-9FEF00?style=flat-square&logo=hackthebox&logoColor=black)
 ![OS](https://img.shields.io/badge/OS-Linux-blue?style=flat-square&logo=linux&logoColor=white)
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=flat-square)
+
 ![Status](https://img.shields.io/badge/Status-Retired-red?style=flat-square)
 
 > **Machine:** Cap
