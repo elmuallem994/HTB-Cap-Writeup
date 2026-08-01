@@ -204,7 +204,7 @@ Achieving root access means **full compromise** of the host. With this level of 
 
 The chained vulnerabilities (IDOR → plaintext credentials → capability abuse) turn a simple information disclosure into a **complete system takeover** — a strong example of how low-severity issues combine into a critical one.
 
-
+---
 
 ## 🎓 Key Takeaways
 
