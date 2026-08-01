@@ -97,8 +97,7 @@ http://<TARGET_IP>/data/0
 
 > 💡 **IDOR (Insecure Direct Object Reference):** the app references objects by a direct ID and fails to check whether the requesting user is authorized to access that object. Simply changing the ID grants access to other users' data.
 
-> 📸 *Screenshot: /data/0 showing another user's capture*
-> `![idor](screenshots/03-idor.png)`
+![idor](screenshots/03-idor.png)
 
 Downloaded the capture at `/data/0` (`0.pcap`) for analysis.
 
