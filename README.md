@@ -203,6 +203,14 @@ root@cap:~# cat /root/root.txt
 
 ---
 
+## 🛡️ Remediation
+
+| Vulnerability | Fix |
+|---------------|-----|
+| IDOR | Enforce server-side authorization checks; verify the requesting user owns the resource. |
+| Plaintext FTP | Replace FTP with SFTP/FTPS to encrypt credentials in transit. |
+| cap_setuid on Python | Remove the capability; run packet capture via a dedicated, restricted service instead. |
+
 ## 🛠️ Tools Used
 
 `nmap` · `Firefox` · `Wireshark` · `ssh` · `getcap` · `python3`
