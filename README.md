@@ -6,7 +6,6 @@
 
 > **Machine:** Cap
 > **OS:** Linux (Ubuntu 20.04)
-> **Difficulty:** Easy
 > **Author:** infosecjack
 > **Date solved:** July 2026
 
